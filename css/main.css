@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+#main-title {
+    color: red;
+    text-align: center;
+}
+
+.champ-image, .about-champ {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hidden-area {
+    height: 250px;
+    padding: 1%;
+}
+
+.champ-image {
+    height: 100%;
+    margin-right: 1%;
+    max-width: 25%;
+    padding-right: 1.4%;
+}
+
+.champ-image:not(:last-child) {
+    border-right: 1px solid grey;
+}
+
+.about-champ {
+    float: left;
+    width: 20%;
+    max-width: 20%;
+    height: 100%;
+    display: inline-block;
+    border: 2px dashed blue;
+    text-align: justify;
+    margin-right: 1%;
+    padding: 0.5%;
+}
